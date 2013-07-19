@@ -6,13 +6,13 @@
 
 # Welcome Message for e.g. SSH Server (up to 5 Lines)
   GREETING0="##############################################"
-  GREETING1="# OpenELEC - The living room PC for everyone #"
-  GREETING2="# ...... visit http://www.openelec.tv ...... #"
-  GREETING3="##############################################"
-  GREETING4=""
+  GREETING1="#          DJE Entertainment System          #"
+  GREETING2="#        visit http://www.djeweb.co.uk       #"
+  GREETING3="# A modified build of OpenELEC for AMD CPUs  #"
+  GREETING4="##############################################"
 
 # Hostname for target system (openelec)
-  HOSTNAME="openelec"
+  HOSTNAME="djesystem"
 
 # Root password to integrate in the target system
   ROOT_PASSWORD="openelec"
@@ -123,16 +123,16 @@
 # Skins to install (Confluence)
 # Space separated list is supported,
 # e.g. SKINS="Confluence"
-  SKINS="Confluence"
+  SKINS="Confluence AeonNox"
 
 # Default Skin (Confluence)
-  SKIN_DEFAULT="Confluence"
+  SKIN_DEFAULT="AeonNox"
 
 # install extra subtitle Fonts for XBMC (yes / no)
   XBMC_EXTRA_FONTS="yes"
 
 # build and install 'RSXS' Screensaver (yes / no)
-  XBMC_SCR_RSXS="yes"
+  XBMC_SCR_RSXS="no"
 
 # build and install 'ProjectM' Visualization (yes / no)
   XBMC_VIS_PROJECTM="yes"

@@ -1,11 +1,18 @@
-# A modified build of OpenELEC for machines with AMD CPUs
+# A modified build of OpenELEC for AMD CPUs
 
 [OpenELEC](http://www.openelec.tv) runs [XBMC](http://xbmc.org), an award-winning free and open source (GPL) software media 
 player and entertainment hub for digital media. For more info see http://xbmc.org .
 The base system has been designed and built from the ground up to be as 
 efficient as possible – consuming only tiny disk and memory footprints and
-providing cutting edge hardware support to deliver a set-top box experience. 
-This build will be used on [DJE Entertainment System](http://www.djeweb.co.uk) machines, built specifically for home entertainment.
+providing cutting edge hardware support to deliver a set-top box experience.
+
+The aim of this build is to streamline OpenELEC further for machines using AMD chipsets, and to include files
+necessary for an all-in-one home entertainment system, including audio and video streaming, gaming and customised
+XBMC skins and settings.
+
+**Changes from original OpenELEC build**
+* Custom Splash Screens
+* Additional settings present in Fusion project options file
 
 **Source code**
 
@@ -14,14 +21,6 @@ This build will be used on [DJE Entertainment System](http://www.djeweb.co.uk) m
 **OpenELEC source code**
 
 * https://github.com/OpenELEC/OpenELEC.tv
-
-**Installation**
-
-* Please read the instructions in the official OpenELEC wiki (http://wiki.openelec.tv/index.php?title=Installation) on how to install.
-
-**Known issues**
-
-* Testing snapshot
 
 **License**
 

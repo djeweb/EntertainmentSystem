@@ -1,20 +1,23 @@
-[OpenELEC](http://www.openelec.tv)
+# A modified build of OpenELEC for machines with AMD CPUs
 
-# OpenELEC - Open Embedded Linux Entertainment Center
-
-OpenELEC runs [XBMC](http://xbmc.org), an award-winning free and open source (GPL) software media 
+[OpenELEC](http://www.openelec.tv) runs [XBMC](http://xbmc.org), an award-winning free and open source (GPL) software media 
 player and entertainment hub for digital media. For more info see http://xbmc.org .
 The base system has been designed and built from the ground up to be as 
 efficient as possible – consuming only tiny disk and memory footprints and
-providing cutting edge hardware support to deliver a set-top box experience.
+providing cutting edge hardware support to deliver a set-top box experience. 
+This build will be used on [DJE Entertainment System](http://www.djeweb.co.uk) machines, built specifically for home entertainment.
 
 **Source code**
+
+* https://github.com/djeweb/EntertainmentSystem
+
+**OpenELEC source code**
 
 * https://github.com/OpenELEC/OpenELEC.tv
 
 **Installation**
 
-* Please read the instructions in our wiki (http://wiki.openelec.tv/index.php?title=Installation) on how to install.
+* Please read the instructions in the official OpenELEC wiki (http://wiki.openelec.tv/index.php?title=Installation) on how to install.
 
 **Known issues**
 
@@ -47,42 +50,4 @@ providing cutting edge hardware support to deliver a set-top box experience.
 * System size ~ 90 - 130MB
 * Minimal hardware requirements
 * Ultra fast boot
-* Optimized builds for platforms such as ION, Intel, Fusion
-* Simple configuration via XBMC itself
 * Plug and Play external storage
-
-**Software**
-
-* XBMC HTPC software – View/Manage all your media.
-* Samba server – File transfer from any PC client
-* SSH server – Remote console access for debugging
-* IR/Bluetooth Remote Control
-
-**Notes**
-
-* SSH login details are user: “root” password: “openelec”.
-  SSH allows command line access to your openelec.tv machine for configuration
-  and file transfer. Linux/Mac clients can natively use SSH, while Windows
-  users might want to try PuTTY for their terminal access.
-  Starting with OpenELEC 2.0, SSH is disabled by default but all that is needed
-  is an empty “ssh_enable” file to exist in /storage/.config to enable it.
-* $HOME is mounted on /storage (the second ext4 partition on the drive). 
-  All data transfered to the machine will go here, the rest of the system is
-  read-only with the exception of /var (containing runtime configuration data).
-* Manual update/downgrade procedure is as follows:
-  Extract the snapshot and navigate to the 'target' directory.
-  Copy KERNEL and SYSTEM along with KERNEL.md5 and SYSTEM.md5 to the 'Update' network share (or /storage/.update) on
-  your openelec machine. Your system will automatically upgrade during the 
-  next reboot.
-* Automatic mounting of filesystems is supported. Devices such as USB Flash 
-  sticks can be plugged into a running machine and will be mounted to /media,
-  showing up in xbmc’s GUI.
-* Comments and questions are more than welcome, help is even better and patches 
-  are absolutely perfect!!
-
-**Questions/Support**
-
-* Forums on [http://openelec.tv](http://openelec.tv)
-* IRC chatroom **#openelec** on Freenode
-
-**Happy OpenELEC'ing**
